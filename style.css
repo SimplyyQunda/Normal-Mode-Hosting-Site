@@ -9,26 +9,58 @@ img{
   height:325px;
   filter: blur(5px);
   position: relative;
+  top: 7px;
+
+}
+.main{
+	position: relative;
+    top: 3px;
+
 }
 ul{
 	 list-style-type:none;
 	 text-align: center;
 
 }
+
 .intro{
 	border: 1px solid blue;
 	text-align: center;
 	position: absolute;
-	top: 150px;
+	top: 80px;
 	left: 0;
 	width: 100%;
 	font-size: 40px;
+	padding:0px;
+
+
 	color:white;
 	font-family: 'Open Sans', sans-serif;
 
+
 }
+.links a {
+font-size: 13px;
+padding-left: 2%;
+text-decoration: none;
+color:grey;
+}
+.price a{
+font-size: 13px;
+padding-left: 2%;
+text-decoration: none;
+color:black;
 
+}
+.box{
+	width: 230px;
+ 	height: 168px;
+}
+.brand{
+	font-size: 13px;
+	padding-left: 1%;
 
+}
 .content{
 	border: 1px solid green;
 }
@@ -40,18 +72,56 @@ ul{
 .section{
 	border: 1px solid orange;
 	float: left;
+	margin: 7px;
+	width: 255px;
 }
-
+}
 .family{
 	border: 1px solid red;
+	padding-left: 0px;
 }
 
 .package{
 	border: 1px solid purple;
+	height:50px;
 }
 
 .button{
 	border: 1px solid black;
 	border-radius: 8px;
+	width: 60px;
+
+}
+html{
+	text-align:center;
 }
 
+
+.details{
+	border: 1px solid black;
+	clear: both;
+}
+
+}
+.customer{
+	border: 1px solid black;
+
+}
+
+}
+.footer a{
+	border: 1px solid blue;
+	float: left; 
+	clear: both;
+	background-color: black;
+	color: white;
+	margin:0px;
+}
+.groupinfo{
+padding-left: 180px;
+}
+.Lorem {
+	border: 1px solid red;
+	float: left;
+	width: 50%;
+}
